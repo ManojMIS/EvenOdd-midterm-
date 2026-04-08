@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21.0.9_10-jdk-jamm
+FROM eclipse-temurin:21
 WORKDIR /app
 COPY target/evenodd-app-1.0-SNAPSHOT.jar app.jar
 CMD ["java", "-jar", "app.jar"]
