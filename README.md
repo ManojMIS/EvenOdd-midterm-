@@ -35,6 +35,8 @@ pipeline {
 }
 
 mvn archetype:generate -DgroupId=com.example -DartifactId=evenodd-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
-
+git config --global user.name "NewUsername"
+git config --global user.email "newemail@gmail.com"
+git init git add . git commit -m git add remote origin git branch -M main git push -u origin main
 
 mvn archetype:generate -DgroupId=com.example -DartifactId=evenodd-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
