@@ -33,3 +33,8 @@ pipeline {
 }
     }
 }
+
+mvn archetype:generate -DgroupId=com.example -DartifactId=evenodd-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+mvn archetype:generate -DgroupId=com.example -DartifactId=evenodd-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
